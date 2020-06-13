@@ -129,34 +129,39 @@ function zoom(event) {
             text19.style.opacity = 0;
             text20.style.opacity = 1;
             text21.style.opacity = 0;
-            text22.style.opacity = 0;
-            text23.style.opacity = 0;
-            text24.style.opacity = 0;
-            text25.style.opacity = 0;
-            text26.style.opacity = 0;
     } else if (scale < -9.25 && scale > -9.35) {
-        text21.style.opacity = 1;
-    } else if (scale < -9.40 && scale > -9.5) {
-        text21.style.opacity = 1;
-    } else if (scale < -9.75 && scale > -10) {
-        text22.style.opacity = 1;
-    } else if (scale < -10.25 && scale > -10.5) {
-        text23.style.opacity = 1;
-    } else if (scale < -10.75 && scale > -11) {
-        text24.style.opacity = 1;
-    } else if (scale < -11.25 && scale > -11.5) {
-        text25.style.opacity = 1;
-    } else if (scale < -11.75 && scale > -12) {
-        text26.style.opacity = 1;
-    } else if (scale < -12.25 && scale > -12.5) {
         text20.style.opacity = 0;
-        text21.style.opacity = 0;
+        text21.style.opacity = 1;
         text22.style.opacity = 0;
+
+    } else if (scale < -9.40 && scale > -9.5) {
+        text21.style.opacity = 0;
+        text22.style.opacity = 1;
         text23.style.opacity = 0;
+    } else if (scale < -9.75 && scale > -10) {
+        text22.style.opacity = 0;
+        text23.style.opacity = 1;
         text24.style.opacity = 0;
+
+    } else if (scale < -10.25 && scale > -10.5) {
+        text23.style.opacity = 0;
+        text24.style.opacity = 1;
         text25.style.opacity = 0;
+
+    } else if (scale < -10.75 && scale > -11) {
+        text24.style.opacity = 0;
+        text25.style.opacity = 1;
+        text26.style.opacity = 0;
+
+    } else if (scale < -11.25 && scale > -11.5) {
+        text25.style.opacity = 0;
+        text26.style.opacity = 1;
+        text27.style.opacity = 0;
+
+    } else if (scale < -11.75 && scale > -12.5) {
         text26.style.opacity = 0;
         text27.style.opacity = 1;
+        text28.style.opacity = 0;
     } else if (scale < -13.25 && scale > -13.5) {
         text27.style.opacity = 0;
         text28.style.opacity = 1;

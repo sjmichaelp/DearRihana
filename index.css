@@ -283,8 +283,7 @@ html {
     position:fixed;
     text-align: center;
     z-index:-1;
-    top: 25%;
-    left: -25%;
+    top: 40%;
     font-family: 'Poiret One', cursive;
     font-size: 5em;
     opacity: 0;
@@ -296,8 +295,7 @@ html {
     position:fixed;
     text-align: center;
     z-index:-1;
-    top: 30%;
-    left: 25%;
+    top: 40%;
     font-family: 'Poiret One', cursive;
     font-size: 5em;
     opacity: 0;
@@ -309,7 +307,7 @@ html {
     position:fixed;
     text-align: center;
     z-index:-1;
-    top: 70%;
+    top: 40%;
     font-family: 'Poiret One', cursive;
     font-size: 5em;
     opacity: 0;
@@ -321,8 +319,7 @@ html {
     position:fixed;
     text-align: center;
     z-index:-1;
-    top: 50%;
-    left: 30%;
+    top: 40%;
     font-family: 'Poiret One', cursive;
     font-size: 5em;
     opacity: 0;
@@ -335,7 +332,6 @@ html {
     text-align: center;
     z-index:-1;
     top: 40%;
-    left: -30%;
     font-family: 'Poiret One', cursive;
     font-size: 5em;
     opacity: 0;
@@ -347,7 +343,7 @@ html {
     position:fixed;
     text-align: center;
     z-index:-1;
-    top: 25%;
+    top: 40%;
     font-family: 'Poiret One', cursive;
     font-size: 5em;
     opacity: 0;
